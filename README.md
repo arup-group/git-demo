@@ -24,6 +24,14 @@ We can commit and push our code using the following commands:
 
 `git push`
 
+We can create a new branch and commit to it using:
+
+`git branch <branch_name>`
+
+`git checkout <branch_name>` Switch to a branch with checkout
+
+You can also do all of these commands using the Sourcetree interface instead, where you can visually see your commits and branches, track changes, and more. 
+
 
 ## Documentation
 
