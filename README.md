@@ -60,6 +60,11 @@ Requirements are documentation too! We always want to keep track of which packag
 
 When creating a requirements.txt file, **always** use a virtual environment. We don't want to export your global packages; we just want what's in a project. We can export our current requirements with:
 
+To create a virtual environment on Windows: 
+
+`virtualenv venv` -> `cd venv/Scripts` -> `activate` -> `cd ../..`
+
+
 `pip freeze > requirements.txt`
 
 ## Unit Testing
